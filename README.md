@@ -1,31 +1,57 @@
-# HR Analytics Dashboard (Power BI)
+---
 
-## Overview
-This repository hosts a Power BI dashboard that provides comprehensive insights into key HR metrics, enabling organizations to analyze and visualize workforce data effectively. The dashboard is designed to support data-driven decision-making processes for HR teams.
+### `HR-dataset-Analysis`  
+**`README.md`**
+```markdown
+# HR Dataset Analysis
 
-## Features
-- **Employee Performance Metrics**: Track productivity and performance levels across teams and individuals.
-- **Retention and Turnover Analysis**: Gain insights into employee retention rates and identify turnover trends.
-- **Diversity Metrics**: Monitor diversity and inclusion statistics across the organization.
-- **Interactive Visualizations**: Use filters and slicers for tailored insights.
+This project provides an in-depth analysis of an HR dataset to uncover key patterns in employee demographics, performance, attrition, and satisfaction. The goal is to assist HR teams in making data-driven decisions to improve employee retention and organizational efficiency.
 
-## File Details
-- **File Name**: HR Analytics Dashboard Power BI.pbix
-- **Tool Used**: Microsoft Power BI
-- **Purpose**: To provide actionable insights for HR management through dynamic dashboards.
+## Project Objectives
 
-## How to Use
-1. Clone this repository to your local machine.
-2. Open the `.pbix` file using Microsoft Power BI Desktop.
-3. Connect to the required data sources if prompted.
-4. Navigate through the different dashboard tabs to explore various HR metrics.
-5. Use filters and slicers to customize your view.
+- Analyze employee attrition and satisfaction levels
+- Identify trends in departments, job roles, and salaries
+- Understand the impact of evaluation scores and work hours
+- Provide visual insights to support HR decision-making
 
-## Prerequisites
-- Microsoft Power BI Desktop installed on your machine.
-- Access to the relevant HR data sources for full functionality.
+## Dataset Overview
 
-## Potential Use Cases
-- Enhancing employee engagement strategies.
-- Identifying areas for improving workplace diversity.
-- Streamlining workforce planning and resource allocation.
+The dataset contains information such as:
+
+- Employee satisfaction and last evaluation
+- Number of projects and average monthly hours
+- Years spent at the company and promotion status
+- Salary level and department
+- Whether the employee left the company
+
+## Technologies Used
+
+- Python
+- Jupyter Notebook
+- Pandas, NumPy
+- Matplotlib, Seaborn
+
+## Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sneha280904/HR-dataset-Analysis.git
+   ```
+
+2. Navigate to the project directory and open the notebook:
+   ```bash
+   cd HR-dataset-Analysis
+   jupyter notebook HR_Analysis.ipynb
+   ```
+
+## Key Insights
+
+- Employees with low satisfaction are more likely to leave
+- High-performing employees who work long hours have high attrition
+- Lower salary levels correlate with higher attrition
+- Promotion and department factors also influence retention
+
+## License
+
+This project is licensed under the MIT License.
+```
